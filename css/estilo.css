@@ -2,48 +2,64 @@ body {
 	margin: 0;
 	border: none;
 }
-header {
+menu {
 	background: #263238;
 	margin: 0 auto;
-	width: 100%;
+	width: auto;
+	height: 44px;
 	font-family: sans-serif;
+	padding-top: 10px;
 }
-header ul{
+menu ul{
 	vertical-align: middle;
 	text-align: right;
 	margin-top: 0px;
 }
-header ul li {
+menu ul li {
 	display: inline-block;
-	margin: 10px 10px;
+	padding: 10px 10px;
 }
-header ul li a {
+menu ul li a {
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 16px;
 	text-decoration: none;
 }
+
+menu ul li a:hover{
+	color: #263238;
+	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 17px;
+}
+
 .btn-login {
 	text-align: center;
 	background-color: #40C4FF;
-	height: 24px;
-	width: 80px;
 	border: none;
-	padding-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
+
+.btn-login:hover{
+	background-color: #fff;
+	color: #40C4FF;
+}
+
 .btn-registrar {
 	text-align: center;
 	background-color: #FF9800;
-	height: 24px;
-	width: 110px;
 	border: none;
-	padding-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
+
+.btn-registrar:hover{
+	background-color: #fff;
+	color: #FF9800;
+}
+
 div {
 	text-align: center;
 	width: 100%;
 }
-.banner {
-	
-}
-
