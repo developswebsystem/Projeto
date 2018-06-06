@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	border: none;
+}
+header {
+	background: #263238;
+	margin: 0 auto;
+	width: 100%;
+	font-family: sans-serif;
+}
+header ul{
+	vertical-align: middle;
+	text-align: right;
+	margin-top: 0px;
+}
+header ul li {
+	display: inline-block;
+	margin: 10px 10px;
+}
+header ul li a {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+}
+.btn-login {
+	text-align: center;
+	background-color: #40C4FF;
+	height: 24px;
+	width: 80px;
+	border: none;
+	padding-top: 5px;
+}
+.btn-registrar {
+	text-align: center;
+	background-color: #FF9800;
+	height: 24px;
+	width: 110px;
+	border: none;
+	padding-top: 5px;
+}
+div {
+	text-align: center;
+	width: 100%;
+}
+.banner {
+	
+}
+
