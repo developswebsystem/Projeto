@@ -1,65 +1,97 @@
-body {
-	margin: 0;
-	border: none;
+* {
+	padding:0;
+	margin:0;
+	vertical-align:baseline;
+	list-style:none;
+	border:0;
 }
-menu {
+
+nav {
 	background: #263238;
 	margin: 0 auto;
 	width: auto;
-	height: 44px;
 	font-family: sans-serif;
-	padding-top: 10px;
-}
-menu ul{
-	vertical-align: middle;
 	text-align: right;
-	margin-top: 0px;
+	padding: 20px;
 }
-menu ul li {
-	display: inline-block;
-	padding: 10px 10px;
+
+nav ul li {
+display: inline;
 }
-menu ul li a {
+
+nav ul li a {
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 16px;
 	text-decoration: none;
+	padding: 10px;
+	float: unset;
 }
 
-menu ul li a:hover{
-	color: #263238;
-	background-color: #fff;
-	padding-top: 20px;
-	padding-bottom: 17px;
+nav ul li a:hover{
+	color:#FF0000;
 }
 
 .btn-login {
-	text-align: center;
-	background-color: #40C4FF;
+	background:rgb(6, 74, 129);
 	border: none;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 21px;
+	padding-bottom: 20px;
+}
+
+.btn-login::before{
+	content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 0px;
+	background: rgba(94, 182, 255, 0.3);
+	transition: all 0.5s ease;
+	margin-left: 1070px;
 }
 
 .btn-login:hover{
-	background-color: #fff;
-	color: #40C4FF;
+	color: #fff;
+}
+
+.btn-login:hover:before{
+	color: #fff;
+	height: 60px;
 }
 
 .btn-registrar {
-	text-align: center;
-	background-color: #FF9800;
+	background-color: #df7904;
 	border: none;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 21px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	margin-left: -5px;
+	margin-right: -20px;
+}
+
+.btn-registrar::before{
+	content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 140px;
+  height: 0px;
+	background: rgba(255, 159, 70, 0.3);
+	transition: all 0.5s ease;
+	margin-left: 1140px;
 }
 
 .btn-registrar:hover{
-	background-color: #fff;
-	color: #FF9800;
+	color: #fff;
 }
 
-div {
-	text-align: center;
-	width: 100%;
+.btn-registrar:hover:before{
+	color: #fff;
+	height: 60px;
+}
+
+.banner{
+	width: 1px;
+	height: 1px;
 }
