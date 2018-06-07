@@ -1,4 +1,5 @@
 * {
+	box-sizing: border-box;
 	padding:0;
 	margin:0;
 	vertical-align:baseline;
@@ -33,65 +34,46 @@ nav ul li a:hover{
 }
 
 .btn-login {
-	background:rgb(6, 74, 129);
+	background-color: #40C4FF;
 	border: none;
-	padding-top: 21px;
-	padding-bottom: 20px;
+	margin-right: 10px;
 }
-
-.btn-login::before{
-	content: '';
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 70px;
-  height: 0px;
-	background: rgba(94, 182, 255, 0.3);
-	transition: all 0.5s ease;
-	margin-left: 1070px;
-}
-
-.btn-login:hover{
+.btn-login:hover {
 	color: #fff;
 }
-
-.btn-login:hover:before{
-	color: #fff;
-	height: 60px;
-}
-
 .btn-registrar {
-	background-color: #df7904;
+	background-color: #FF9800;
 	border: none;
-	padding-top: 21px;
-	padding-bottom: 20px;
-	padding-left: 10px;
-	margin-left: -5px;
-	margin-right: -20px;
 }
-
-.btn-registrar::before{
-	content: '';
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 140px;
-  height: 0px;
-	background: rgba(255, 159, 70, 0.3);
-	transition: all 0.5s ease;
-	margin-left: 1140px;
-}
-
-.btn-registrar:hover{
+.btn-registrar:hover {
 	color: #fff;
-}
-
-.btn-registrar:hover:before{
-	color: #fff;
-	height: 60px;
 }
 
 .banner{
-	width: 1px;
-	height: 1px;
+	background: url(../img/1240x300.png);
+	width: 100%;
+	height: 300px;
+}
+.banner p {
+	text-align: center;
+	margin: 0 auto;
+	padding: 80px 50px 0px 50px;
+}
+.btn-cadastrar {
+	font-family: sans-serif;
+	background-color: #40C4FF;
+	border: none;
+    color: white;
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+.btn-cadastrar:hover {
+	box-shadow: 5px 5px 16px #404448;
 }
