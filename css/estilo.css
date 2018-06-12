@@ -34,11 +34,13 @@ nav ul li a {
 }
 
 nav ul li a:hover{
+	border-radius: 7px;
 	color:#263238;
 	background-color: #FFF;
 }
 
 .btn-login {
+	border-radius: 7px;
 	background-color: #40C4FF;
 	color: #FFF;
 	margin-right: 5px;
@@ -52,6 +54,8 @@ nav ul li a:hover{
 	background: #FFF;
 }
 .btn-registrar {
+	border-radius: 7px;
+	border: none;
 	background-color: #FF9800;
 	color: #FFF;
 	-webkit-transition: all ease-in-out 500ms; /* Chrome + Safari */
@@ -108,7 +112,5 @@ nav ul li a:hover{
 	transition: all ease-in-out 600ms; /* IE */
 }
 .btn-cadastrar:hover {
-	-webkit-box-shadow: 3px 3px 12px rgba(255, 255, 255, 0.5); /* Chrome + Safari */
-	-moz-box-shadow: 3px 3px 12px rgba(255, 255, 255, 0.5); /* Firefox */
-	box-shadow: 3px 3px 12px rgba(255, 255, 255, 0.5); /* IE + Opera */
+	transform: scale(1.1);
 }
